@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://static.preparaenem.com/2020/11/numeros-naturais.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat ;
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input[type=button]{
+    width: 44px;
+    height: 44px;
+    margin: 2px;
+    border-radius: 5px
+    
+}
+input[type=button]:hover{
+    filter: brightness(80%);
+}
+#quarta input:nth-child(1) {
+    background-color: tomato;
+}
+#quarta input:nth-child(3) {
+    background-color: blueviolet;
+}
+#calculadora input:nth-child(4){
+     background: #7a7a7a;
+}
+#calculadora{
+    box-shadow: 10 10  40px black;
+}
