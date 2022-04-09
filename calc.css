@@ -1,41 +1,71 @@
-body{
-    background-image: url(https://static.preparaenem.com/2020/11/numeros-naturais.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat ;
-}
-*{
-    padding: 0;
-    margin: 0;
-    outline: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-}
-section{
-    display: flex;
-    justify-content: center;
+.container{
+    margin: 100px auto;
     align-items: center;
-    height: 100vh;
+    justify-content: center;
+    background-color: rgb(155, 155, 155);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 4px 4px 4px 4px black;
+    width: 320px;
+    height: 420px;
 }
-input[type=button]{
-    width: 44px;
-    height: 44px;
-    margin: 2px;
-    border-radius: 5px
-    
+
+
+#display{
+    background-color: rgb(255, 249, 238);
+    color: black;
+    height: 30px;
+    width: 300px;
+    margin: 40px auto 5px;
+    display: block;
+    border-radius: 2px;
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 5px;
 }
-input[type=button]:hover{
-    filter: brightness(80%);
+#cleaner{
+    background-color: rgb(89, 89, 189);
+    color: white;
 }
-#quarta input:nth-child(1) {
-    background-color: tomato;
+#cleaner:hover{
+    background-color: rgb(122, 122, 216);
 }
-#quarta input:nth-child(3) {
-    background-color: blueviolet;
+.content{
+    width: 300px;
+    margin: 50px auto;
 }
-#calculadora input:nth-child(4){
-     background: #7a7a7a;
+
+.num{
+    background-color: rgb(46, 46, 46);
+    color: rgb(255, 247, 130);
+    margin: 10px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5em;
+    border-radius: 5px;
 }
-#calculadora{
-    box-shadow: 10 10  40px black;
+.num:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px black;
+    background-color: black;
+    transition: ease-in-out;
+    transform: scale(.9);    
+}
+
+
+#igual{
+    background-color: rgb(204, 47, 47);
+    color: white;
+}
+#igual:hover{
+    background-color: rgb(180, 47, 47);
+}
+
+.operador{
+    background-color: rgb(182, 182, 182);
+    color: white;
+}
+.operador:hover{
+    background-color: rgb(207, 207, 207);
 }
